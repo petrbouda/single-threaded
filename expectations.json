@@ -1,0 +1,21 @@
+[
+  {
+    "httpRequest": {
+      "method": "POST",
+      "path": "/v1/persons"
+    },
+    "httpResponse": {
+      "statusCode": 201,
+      "delay": {
+        "timeUnit": "MILLISECONDS",
+        "value": 5000
+      }
+    },
+    "times": {
+      "unlimited": true
+    },
+    "timeToLive": {
+      "unlimited": true
+    }
+  }
+]
