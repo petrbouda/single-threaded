@@ -1,5 +1,7 @@
 # Single-Thread App and its Testing 
 
+- Build the base image locally - `https://github.com/petrbouda/openjdk-x-dbg-asyncprofiler`
+
 ```
 sudo sh -c 'echo 1 >/proc/sys/kernel/perf_event_paranoid'
 sudo sh -c 'echo 0 >/proc/sys/kernel/kptr_restrict'
